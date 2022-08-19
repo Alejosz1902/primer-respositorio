@@ -85,7 +85,8 @@ a{
     border-radius: 15%;
 }
 footer{
-    background-color: black;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(194,194,194,1) 78%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
@@ -309,4 +310,13 @@ h3 {
     .nav {
         display: none;
     }
+}
+img:hover {
+    filter: opacity(.5);
+}
+.portada:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
 }
