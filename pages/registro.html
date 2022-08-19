@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../multimedia/logo.jpg">
+    <title>Registro</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="titulo">Inmobiliaria XY</h1>
+        <a href="../index.html"><img src="../multimedia/logo.jpg" alt="logo" class="logo"></a>
+    </header>
+    <main class="registro">
+        <h2>Registro</h2>
+        <h3>Inscribete en la proxima presentacion de proyectos</h3>
+        <form action="registro.php" method="post" enctype="text/plain" netlify>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre"> <br>
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="Apellido"> <br>
+        <label for="Correo">Correo:</label>
+        <input type="email" name="Correo"> <br>
+        <label for="numero">Numero:</label>
+        <input type="tel" name="numero"><br>
+        <label for="sexo">Genero:</label><br>
+        <label for="sexo">Hombre</label>
+        <input type="radio" name="sexo" value="Hombre"><br>
+        <label for="sexo">Mujer</label>
+        <input type="radio" name="sexo" value="Mujer"><br>
+        <label for="sexo">No especificado</label>
+        <input type="radio" name="sexo" value="No especificado"><br>
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" name="fecha"><br>
+        <label for="proyecto">Proyecto elegido:</label><br>
+        <label for="proyecto">Proyecto 6</label>
+        <input type="radio" name="proyecto" value="Proyecto 6"><br>
+        <label for="proyecto">Proyecto 7</label>
+        <input type="radio" name="proyecto" value="Proyecto 7"><br>
+        <label for="proyecto">Proyecto 8</label>
+        <input type="radio" name="proyecto" value="Proyecto 8"><br>
+        <label for="proyecto">Aun no decido</label>
+        <input type="radio" name="proyecto" value="Aun no decido"><br>
+        <label for="Comentario">Comentario:</label><br>
+        <textarea name="Comentarios" id="" cols="30" rows="5"></textarea> <br>
+        <input type="submit" value="Enviar">
+        <input type="reset">
+        </form>
+    </main>
+    <footer>
+        <div class="redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="#">Registro</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <p class="derechos">Todos los derechos reservados. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </footer>
+</body>
+</html>
